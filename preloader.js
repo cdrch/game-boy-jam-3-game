@@ -29,7 +29,10 @@ BasicGame.Preloader.prototype = {
     // this.load.spritesheet('greenEnemy', 'assets/enemy.png', 32, 32);
     // this.load.audio('explosion', ['assets/explosion.wav']);
     
-    
+    this.load.spritesheet('arrows', 'assets/arrow-sheet.png', 8, 8);
+    this.load.tilemap('map', 'assets/testingmap1.json', null, Phaser.Tilemap.TILED_JSON);
+    this.load.image('tiles', 'assets/4-color-tileset');
+    this.load.image('checker', 'assets/checkerplayer');
     
     //  + lots of other required assets here
 
